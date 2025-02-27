@@ -1,0 +1,212 @@
+@import "./icons.scss";
+
+// Light Theme
+@import "./bootstrap.scss";
+@import "./app.scss";
+
+// // RTL Mode
+// @import "./rtl/bootstrap-rtl";
+// @import "./rtl/components-rtl";
+// @import "./rtl/float-rtl";
+// @import "./rtl/general-rtl";
+// @import "./rtl/pages-rtl";
+// @import "./rtl/plugins-rtl";
+// @import "./rtl/spacing-rtl";
+// @import "./rtl/structure-rtl";
+// @import "./rtl/text-rtl";
+
+.react-bootstrap-table-page-btns-ul {
+  margin-bottom: 0px;
+}
+.close {
+  background: transparent;
+  border: 0;
+  font-size: 10px;
+  padding: 1.35rem 1.25rem;
+  // background: transparent escape-svg($btn-close-bg-dark) center /
+  //   $btn-close-width auto no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.5;
+  width: 1em;
+  height: 1em;
+  z-index: 2;
+  span {
+    display: none;
+  }
+}
+.rangeslider__fill {
+  background-color: #556ee6 !important;
+}
+.rdw-editor-main {
+  border: 1px solid $gray-300;
+  height: 239px;
+}
+.dz-message {
+  text-align: center;
+  margin: 2em 0;
+}
+//Crypto enteries
+.bs-select select {
+  width: auto !important;
+}
+
+// .apexcharts-canvas {
+//   text {
+//     fill: #adb5bd !important;
+//   }
+// }
+
+.input-group-append,
+.input-group-prepend {
+  display: flex;
+}
+
+@media (min-width: 576px) {
+  .card-columns {
+    -webkit-column-count: 3;
+    column-count: 3;
+    grid-column-gap: 1.25rem;
+    -webkit-column-gap: 1.25rem;
+    column-gap: 24px;
+    orphans: 1;
+    widows: 1;
+  }
+  .card-columns .card {
+    display: inline-block;
+    width: 100%;
+  }
+}
+.steps a.nav-link {
+  background-color: #c3cef8;
+  color: #3b5de7;
+}
+.steps a.nav-link .number {
+  border-color: #3b5de7;
+}
+.pagination .pagination {
+  margin-bottom: 0px;
+}
+
+// kanban board
+.react-kanban-column {
+  height: 100%;
+  min-height: 28px;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 2px;
+  background-color: rgb(238, 238, 238);
+  margin: 5px;
+  vertical-align: top;
+}
+
+.fcYNFc,
+.sc-AxmLO.gmtmqV {
+  background-color: $card-bg !important;
+  margin: 0 20px 0 0 !important;
+}
+.task-box {
+  border: 1px solid $border-color;
+}
+
+//react select
+.css-b62m3t-container {
+  .css-13cymwt-control {
+    background-color: var(--#{$prefix}secondary-bg);
+    color: var(--#{$prefix}body-color);
+    border-color: var(--#{$prefix}border-color);
+
+    &:hover,
+    &:focus {
+      border-color: var(--#{$prefix}primary);
+    }
+
+    .css-1p3m7a8-multiValue {
+      color: var(--#{$prefix}white);
+      background-color: var(--#{$prefix}primary);
+
+      .css-wsp0cs-MultiValueGeneric {
+        color: var(--#{$prefix}white);
+      }
+
+      .css-1u9des2-indicatorSeparator {
+        border-color: var(--#{$prefix}border-color);
+      }
+    }
+  }
+
+  :is(.css-qbdosj-Input, .css-1dimb5e-singleValue) {
+    color: var(--#{$prefix}body-color);
+  }
+
+  .css-t3ipsp-control {
+    background-color: var(--#{$prefix}secondary-bg);
+    color: var(--#{$prefix}body-color);
+    border-color: var(--#{$prefix}border-color);
+
+    .css-1p3m7a8-multiValue {
+      color: var(--#{$prefix}white);
+      background-color: var(--#{$prefix}primary);
+
+      .css-wsp0cs-MultiValueGeneric {
+        color: var(--#{$prefix}white);
+      }
+
+      .css-1u9des2-indicatorSeparator {
+        border-color: var(--#{$prefix}border-color);
+      }
+    }
+  }
+
+  .css-1nmdiq5-menu {
+    background-color: var(--#{$prefix}secondary-bg);
+    color: var(--#{$prefix}body-color);
+    border-color: var(--#{$prefix}border-color);
+
+    .css-d7l1ni-option {
+      color: $white;
+      background-color: var(--#{$prefix}primary);
+
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: var(--#{$prefix}primary);
+      }
+    }
+  }
+}
+//  calendar
+.flatpickr-innerContainer {
+  border-bottom: var(--#{$prefix}border-color) !important;
+}
+.flatpickr-calendar {
+  border-color: var(--#{$prefix}border-color) !important;
+  color: var(--#{$prefix}body-color) !important;
+}
+.flatpickr-days {
+  background-color: var(--#{$prefix}secondary-bg) !important;
+  color: var(--#{$prefix}body-color) !important;
+  border-color: var(--#{$prefix}border-color) !important;
+}
+.flatpickr-day.today {
+  border-color: var(--#{$prefix}border-color) !important;
+  color: var(--#{$prefix}body-color) !important;
+  &:hover,
+  &:focus {
+      border-color: var(--#{$prefix}border-color) !important;
+      background: var(--#{$prefix}tertiary-bg) !important;
+      color: var(--#{$prefix}body-color) !important;
+  }
+}
+.flatpickr-day {
+  color: var(--#{$prefix}body-color) !important;
+  &:hover {
+      border-color: var(--#{$prefix}border-color) !important;
+      background: var(--#{$prefix}tertiary-bg) !important;
+      color: var(--#{$prefix}body-color) !important;
+  }
+}
+.dayContainer {
+  border-color: var(--#{$prefix}border-color) !important;
+}
